@@ -54,6 +54,7 @@ MIDDLEWARE = [
 
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:5173",
+    "https://todomanagerrr.netlify.app",
 ]
 
 ROOT_URLCONF = 'config.urls'
