@@ -1,0 +1,15 @@
+.auth-layout {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.auth-content {
+  flex: 1;
+  padding-top: 72px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 96px 24px;
+  animation: fadeIn 0.3s ease;
+}

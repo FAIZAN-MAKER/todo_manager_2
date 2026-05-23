@@ -1,0 +1,103 @@
+.static-page {
+  padding: 60px 24px 100px;
+}
+
+.static-inner {
+  max-width: 720px;
+  margin: 0 auto;
+}
+
+.static-header {
+  text-align: center;
+  margin-bottom: 48px;
+}
+
+.static-header .section-label {
+  display: inline-flex;
+  padding: 4px 14px;
+  border-radius: 100px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--primary);
+  background: var(--primary-light);
+  margin-bottom: 16px;
+}
+
+.static-header h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+.static-header p {
+  color: var(--text-secondary);
+  font-size: 1.0625rem;
+  max-width: 480px;
+  margin: 0 auto;
+}
+
+.static-content {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.static-content .card h2 {
+  font-size: 1.25rem;
+  margin-bottom: 12px;
+}
+
+.static-content .card p {
+  color: var(--text-secondary);
+  line-height: 1.8;
+  font-size: 0.938rem;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.contact-success {
+  text-align: center;
+  padding: 24px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+
+.contact-success-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background: var(--success-light);
+  color: var(--success);
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.contact-success h2 {
+  margin-bottom: 4px;
+}
+
+.contact-success p {
+  color: var(--text-secondary);
+  margin-bottom: 16px;
+}
+
+@media (max-width: 640px) {
+  .static-page {
+    padding: 40px 16px 60px;
+  }
+  .static-header h1 {
+    font-size: 1.875rem;
+  }
+}

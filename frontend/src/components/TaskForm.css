@@ -1,0 +1,36 @@
+.task-form {
+  margin-bottom: 24px;
+}
+
+.task-form-input {
+  display: flex;
+  gap: 12px;
+}
+
+.task-form-input input {
+  flex: 1;
+  padding: 14px 18px;
+  font-size: 1rem;
+  border-radius: var(--radius);
+  border: 1.5px solid var(--border);
+  background: var(--surface);
+  color: var(--text-heading);
+  outline: none;
+  transition: all var(--transition);
+}
+
+.task-form-input input:focus {
+  border-color: var(--primary);
+  box-shadow: 0 0 0 3px var(--primary-light);
+}
+
+.task-form-input input::placeholder {
+  color: var(--text-muted);
+}
+
+.task-form-input .btn {
+  padding: 14px 24px;
+  font-size: 0.938rem;
+  white-space: nowrap;
+  min-width: 110px;
+}
